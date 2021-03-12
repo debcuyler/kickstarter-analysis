@@ -9,9 +9,11 @@ The project was completed using a Kickstarter campaign dataset to analyze fundra
 
 ### Analysis of Outcomes Based on Launch Date
 Analysis based on launch date was completed in excel by breaking down all Kickstarter campaign data with a parent category of "Theater" and determining the number of campaigns that were successful, failed or canceled. A "year' column was created so this data could be presented for all years by month, with each month showing the number of successfull, failed or canceled campaigns. A pivot table and line chart were created to display the data.
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/80215894/110994740-40528a80-8347-11eb-86db-002850162a92.png)
 
 ### Analysis of Outcomes Based on Goals
 Outcomes based on goals was completed by creating a new table that broke down the fundraising goal data into smaller categories. This data was obtained by using the COUNTIF formula based on goal amount, sub-category of "plays" and outcomes. Once the numbers of campaigns for each goal amount were calculated, the SUM function was used to calculate the number of campaigns for each category of goal amount. Using the total number of projects in each goal category, the value was divided by the number of successful, failed and canceled campaigns to determine the percentage of each by goal amount. 
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/80215894/110994746-43e61180-8347-11eb-8e23-c6f24ad7bfe5.png)
 
 ### Challenges and Difficulties Encountered
 Extracting the dates of the campaign could have proven difficult if the format of the launch date had been in a text format and not a date format. I did have issues initially with the Outcomes Based on Goals because I created a pivot chart instead of a plain line chart so was not able to format to match the example in the challenge. I removed the pivot chart and table and was able to insert a plain line chart and was able to match the image in the challenge.
